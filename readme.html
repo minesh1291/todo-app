@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App Documentation &mdash; Todo App 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=8d563738"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="JavaScript Application" href="modules/app.html" />
+    <link rel="prev" title="Welcome to Todo App’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Todo App
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Todo App Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#ubuntu-themed-todo-app">Ubuntu-themed Todo App</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#features">Features</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#todo-list">Todo List</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#technical-stack">Technical Stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-structure">Project Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#components">Components</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#todo-list-component">Todo List Component</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#styling">Styling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-application">Running the Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#local-development">Local Development</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#docker-deployment">Docker Deployment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#environment-variables">Environment Variables</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#development">Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#browser-support">Browser Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#future-enhancements">Future Enhancements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contributing">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#license">License</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules/app.html">JavaScript Application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/server.html">Python Server</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Todo App</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Todo App Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/readme.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="todo-app-documentation">
+<h1>Todo App Documentation<a class="headerlink" href="#todo-app-documentation" title="Link to this heading"></a></h1>
+</section>
+<section id="ubuntu-themed-todo-app">
+<h1>Ubuntu-themed Todo App<a class="headerlink" href="#ubuntu-themed-todo-app" title="Link to this heading"></a></h1>
+<p>A modern web application that provides a feature-rich todo list with Ubuntu’s design language.</p>
+<p><img alt="Ubuntu Theme" src="https://assets.ubuntu.com/v1/a7e3c509-Aubergine_suru_background.png" /></p>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Link to this heading"></a></h2>
+<section id="todo-list">
+<h3>Todo List<a class="headerlink" href="#todo-list" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>✅ Create, read, update, and delete todo items</p></li>
+<li><p>📅 Set due dates for tasks</p></li>
+<li><p>✨ Mark tasks as complete</p></li>
+<li><p>💾 Persistent storage using localStorage</p></li>
+<li><p>🎨 Ubuntu-themed interface</p></li>
+</ul>
+</section>
+</section>
+<section id="technical-stack">
+<h2>Technical Stack<a class="headerlink" href="#technical-stack" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Frontend Framework</strong>: Vue.js 3</p></li>
+<li><p><strong>Styling</strong>:</p>
+<ul>
+<li><p>Bootstrap 5</p></li>
+<li><p>Custom Ubuntu theme</p></li>
+<li><p>CSS animations</p></li>
+</ul>
+</li>
+<li><p><strong>Storage</strong>: Browser’s localStorage</p></li>
+<li><p><strong>Server</strong>: Python SimpleHTTPServer with CORS support</p></li>
+</ul>
+</section>
+<section id="project-structure">
+<h2>Project Structure<a class="headerlink" href="#project-structure" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>todo-app/
+├── index.html          # Main HTML file
+├── app.js             # Vue.js application logic
+├── server.py          # Development server
+└── README.md          # Documentation
+</pre></div>
+</div>
+</section>
+<section id="components">
+<h2>Components<a class="headerlink" href="#components" title="Link to this heading"></a></h2>
+<section id="todo-list-component">
+<h3>Todo List Component<a class="headerlink" href="#todo-list-component" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Responsive design</p></li>
+<li><p>Real-time updates</p></li>
+<li><p>Smooth animations</p></li>
+<li><p>Date picker integration</p></li>
+<li><p>Persistent storage</p></li>
+</ul>
+</section>
+</section>
+<section id="styling">
+<h2>Styling<a class="headerlink" href="#styling" title="Link to this heading"></a></h2>
+<p>The application uses Ubuntu’s official color palette:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">--ubuntu-purple</span></code>: #2c001e</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--ubuntu-orange</span></code>: #E95420</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--ubuntu-warm-grey</span></code>: #AEA79F</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--ubuntu-light</span></code>: #f7f7f7</p></li>
+</ul>
+<p>Features a modern, glass-morphism design with:</p>
+<ul class="simple">
+<li><p>Frosted glass effects</p></li>
+<li><p>Responsive layouts</p></li>
+<li><p>Animated components</p></li>
+<li><p>High contrast for accessibility</p></li>
+</ul>
+</section>
+<section id="running-the-application">
+<h2>Running the Application<a class="headerlink" href="#running-the-application" title="Link to this heading"></a></h2>
+<section id="local-development">
+<h3>Local Development<a class="headerlink" href="#local-development" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Start the server:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3<span class="w"> </span>server.py
+</pre></div>
+</div>
+</li>
+<li><p>Access the application:</p>
+<ul class="simple">
+<li><p>URL: http://localhost:8081</p></li>
+<li><p>Supports cross-origin requests</p></li>
+<li><p>Works in modern browsers</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="docker-deployment">
+<h3>Docker Deployment<a class="headerlink" href="#docker-deployment" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Using Docker Compose (recommended):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose<span class="w"> </span>up<span class="w"> </span>--build
+</pre></div>
+</div>
+</li>
+<li><p>Using Docker directly:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>build<span class="w"> </span>-t<span class="w"> </span>todo-app<span class="w"> </span>.
+docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">8081</span>:8081<span class="w"> </span>todo-app
+</pre></div>
+</div>
+</li>
+<li><p>Access points:</p>
+<ul class="simple">
+<li><p>Local machine: http://localhost:8081</p></li>
+<li><p>Network access: http://[your-ip-address]:8081</p></li>
+<li><p>Docker host: http://[docker-host]:8081</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="environment-variables">
+<h3>Environment Variables<a class="headerlink" href="#environment-variables" title="Link to this heading"></a></h3>
+<p>The application supports the following environment variables:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">HOST</span></code>: Server host (default: 0.0.0.0)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">PORT</span></code>: Server port (default: 8081)</p></li>
+</ul>
+</section>
+</section>
+<section id="development">
+<h2>Development<a class="headerlink" href="#development" title="Link to this heading"></a></h2>
+<p>The application is structured for easy maintenance and extension:</p>
+<ul class="simple">
+<li><p>Modular JavaScript code</p></li>
+<li><p>CSS variables for theming</p></li>
+<li><p>Responsive design principles</p></li>
+</ul>
+</section>
+<section id="browser-support">
+<h2>Browser Support<a class="headerlink" href="#browser-support" title="Link to this heading"></a></h2>
+<p>Tested and working in:</p>
+<ul class="simple">
+<li><p>Chrome/Chromium</p></li>
+<li><p>Firefox</p></li>
+<li><p>Safari</p></li>
+<li><p>Edge</p></li>
+</ul>
+</section>
+<section id="future-enhancements">
+<h2>Future Enhancements<a class="headerlink" href="#future-enhancements" title="Link to this heading"></a></h2>
+<p>Planned features:</p>
+<ul class="simple">
+<li><p>[ ] Todo categories and filters</p></li>
+<li><p>[ ] Dark/Light theme toggle</p></li>
+<li><p>[ ] Mobile-optimized views</p></li>
+<li><p>[ ] Task priorities</p></li>
+<li><p>[ ] Subtasks support</p></li>
+<li><p>[ ] Task sharing</p></li>
+</ul>
+</section>
+<section id="contributing">
+<h2>Contributing<a class="headerlink" href="#contributing" title="Link to this heading"></a></h2>
+<p>Feel free to contribute by:</p>
+<ol class="arabic simple">
+<li><p>Forking the repository</p></li>
+<li><p>Creating a feature branch</p></li>
+<li><p>Submitting a pull request</p></li>
+</ol>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Link to this heading"></a></h2>
+<p>This project is open source and available under the MIT License.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Todo App’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="modules/app.html" class="btn btn-neutral float-right" title="JavaScript Application" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Minesh MLOps.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
