@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  todo-app:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/app
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8081
+    restart: unless-stopped
